@@ -62,20 +62,20 @@ def math_operations():
 
     if st.button("ADD"):
         add_sum = first_num + second_num
-        st.success(f"The number is: {add_sum}")
+        st.success(f"The sum is: {add_sum}")
 
     if st.button("SUBTRACT "):
         sub_sum = first_num - second_num
-        st.success(f"The number is: {sub_sum}")
+        st.success(f"The sum is: {sub_sum}")
 
     if st.button("MULTIPLY "):
         mul_sum = first_num * second_num
-        st.success(f"The number is: {mul_sum}")
+        st.success(f"The sum is: {mul_sum}")
 
     if st.button("DIVIDE "):
         try:
             div_sum = first_num / second_num
-            st.success(f"The number is: {div_sum}")
+            st.success(f"The sum is: {div_sum}")
         except ZeroDivisionError as e:
             st.error("Cannot divide by 0. Please try another number")
 
