@@ -6,7 +6,7 @@ from sql_commands_second_part import *
 st.title("Arie's Web Calculator & Shop")
 st.subheader("Here, you can easily perform simple math operations, explore available products, and calculate prices on your own - All in my awesome store! Enjoy!")
 
-menu = st.selectbox("Choose action:", [" ", "Shop Products", "Calculator"])
+menu = st.selectbox("Click below to choose action:", [" ", "Shop Products", "Calculator"])
 
 if menu == "Shop Products":
     st.subheader("ARIE'S SHOP PRODUCTS:")
